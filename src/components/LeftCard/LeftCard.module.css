@@ -1,0 +1,168 @@
+.LeftCard {
+  height: 80vh;
+  width: 45%;
+  background-color: white;
+  max-width: 500px;
+}
+
+.LeftCardText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.LeftCardText p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  color: #999999;
+  margin: 0;
+}
+
+.Weather {
+  height: 100%;
+}
+
+.WeatherImg {
+  width: 100%;
+  height: 35%;
+}
+
+.WeatherImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.WeatherInfo {
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.FirstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FirstRowDate {
+  margin: 0;
+  color: #999999;
+  width: 55%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.FirstRowLocation {
+  margin: 0;
+  color: #0da0ea;
+  font-weight: 500;
+  background: rgba(13, 159, 234, 0.08);
+  width: 45%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 0 0 0 2rem;
+  position: relative;
+}
+
+.FirstRowLocation img {
+  height: 30%;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.SecondRow {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.SecondRowBox {
+  width: 33%;
+  text-align: center;
+}
+
+.WeatherIcon {
+  height: 80px;
+  width: 80px;
+}
+
+.SecondRowWeatherName {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.WeatherCurrentTemp {
+  font-size: 4.5rem;
+  margin: 0;
+}
+
+.WeatherMaxTemp {
+  margin: 0;
+}
+
+.WeatherMinTemp {
+  margin: 0;
+}
+
+.WeatherC {
+  position: absolute;
+  right: -5px;
+  top: 18px;
+}
+
+.SecondRowBoxTemp {
+  font-size: 1.1rem;
+}
+
+.WeatherTempIcon {
+  height: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+.SecondRowBoxTempItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+.SecondRowBoxC {
+  position: relative;
+}
+
+.ThirdRow {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.ThirdRowBox {
+  text-align: center;
+  width: 33%;
+  margin-top: 1.5rem;
+}
+
+.ThirdRowIcon {
+  height: 2rem;
+}
+
+.WeatherInfoLabel {
+  color: #999999;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.WeatherInfoMain {
+  color: #444444;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0.4em;
+}

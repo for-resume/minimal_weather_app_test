@@ -1,0 +1,17 @@
+.App {
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.AppContent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.App h1 {
+  margin: 0;
+  text-align: center;
+  color: #999999;
+  text-transform: uppercase;
+}

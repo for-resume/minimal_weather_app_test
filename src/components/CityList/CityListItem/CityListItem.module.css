@@ -1,0 +1,34 @@
+.CityListItem {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.CityListItem p {
+  margin: 0;
+}
+
+.CityListItem:hover {
+  background-color: #ecf7fd;
+}
+
+.CityListItemName {
+  color: #444444;
+}
+
+.CityListItemName:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.CityListItemTemp {
+  color: #666666;
+  font-weight: 300;
+}
+
+.CityListItem img:hover {
+  transform: scale(1.5);
+}

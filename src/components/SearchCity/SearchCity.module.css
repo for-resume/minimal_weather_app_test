@@ -1,0 +1,62 @@
+.SearchCity {
+  height: 25%;
+}
+
+.SearchCity h2 {
+  margin: 0;
+  text-align: center;
+  color: #999999;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.SearchCity input {
+  padding: 1rem;
+  height: 3rem;
+  display: block;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #f3f3f3;
+  width: 80%;
+}
+
+.SearchCity input:focus,
+.SearchCity input:active {
+  outline: none;
+}
+
+.SearchCityInputBox {
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+}
+
+.SearchCityInputBox button {
+  background: no-repeat center/60% url('./location.svg');
+  width: 2rem;
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.SearchCityInputBox button:focus,
+.SearchCityInputBox button:active {
+  outline: none;
+}
+
+.SearchList {
+}
+
+.LoaderBox {
+  text-align: center;
+  padding: 1rem;
+}
+
+.NoResults {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #444444;
+}

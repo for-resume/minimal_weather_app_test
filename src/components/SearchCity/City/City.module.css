@@ -1,0 +1,31 @@
+.City {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.City p {
+  margin: 0;
+}
+
+.City:hover {
+  background-color: #ecf7fd;
+}
+
+.CityName {
+  color: #444444;
+}
+
+.CityName:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.CityTemp {
+  color: #666666;
+  font-weight: 300;
+}

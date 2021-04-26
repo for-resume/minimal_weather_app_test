@@ -1,0 +1,30 @@
+.CityList {
+  height: 75%;
+}
+
+.CityListBox {
+  height: 80%;
+  overflow-y: auto;
+}
+
+.CityListTitle {
+  margin: 0;
+  text-align: center;
+  color: #999999;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.LoaderList {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.WeatherError {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 8rem;
+  color: #f78f8f;
+}
